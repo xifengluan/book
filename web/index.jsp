@@ -12,8 +12,8 @@
     <img class="logo_img" alt="" src="static/img/logo.gif">
     <span class="wel_word">网上书城</span>
     <div>
-        <a href="pages/user/login.jsp">登录</a> |
-        <a href="pages/user/regist.jsp">注册</a> &nbsp;&nbsp;
+        <a href="pages/user/login.jsp">登录</a>
+        <a href="pages/user/regist.jsp">注册</a>
         <a href="pages/cart/cart.jsp">购物车</a>
         <a href="pages/manager/manager.jsp">后台管理</a>
     </div>
@@ -22,7 +22,7 @@
     <div id="book">
         <div class="book_cond">
             <form action="" method="get">
-                价格：<input id="min" type="text" name="min" value=""> 元 -
+                价格：<input id="min" type="text" name="min" value=""> 元
                 <input id="max" type="text" name="max" value=""> 元
                 <input type="submit" value="查询"/>
             </form>
