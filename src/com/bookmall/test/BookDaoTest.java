@@ -19,7 +19,7 @@ public class BookDaoTest {
 
     @Test
     public void addBook() {
-        bookDao.addBook(new Book(24,"垃圾","我",new BigDecimal(12.0),100,120,null));
+        bookDao.addBook(new Book(null,"垃圾","我",new BigDecimal(12.0),100,120,null));
     }
 
     @Test
